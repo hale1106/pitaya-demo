@@ -1,0 +1,1 @@
+var Main=function(){};Main.prototype={constructor:"Main",init:function(){this.handle()},handle:function(){this.getName()},getName:function(){$.ajax({url:"/getName",type:"get",dataType:"json",cache:!1,success:function(n){alert(0===n.status?"排名显示完成":n.message||"error")}})}};var main=(new Main).init();

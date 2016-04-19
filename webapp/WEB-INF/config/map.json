@@ -1,0 +1,70 @@
+{
+    "res": {
+        "page/example/index.vm": {
+            "uri": "/page/example/index.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/example/layout.vm": {
+            "uri": "/page/example/layout.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "static/css/example/main.less": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/css/example/main_5fecfee.css",
+            "type": "css"
+        },
+        "static/js/common/zepto.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/zepto_98b86a5.js",
+            "type": "js"
+        },
+        "static/js/common/dialog.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/dialog_d2198b7.js",
+            "type": "js"
+        },
+        "static/js/example/main.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/example/main_f8ae045.js",
+            "type": "js"
+        },
+        "page/example/show.vm": {
+            "uri": "/page/example/show.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "static/css/example/animate.css": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/css/example/animate_40369ef.css",
+            "type": "css"
+        },
+        "static/css/global.less": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/css/global_4436bc0.css",
+            "type": "css"
+        },
+        "static/js/common/fileUpload.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/fileUpload_e097f41.js",
+            "type": "js"
+        },
+        "static/js/common/imageLoad.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/imageLoad_b1ae3a3.js",
+            "type": "js"
+        },
+        "static/js/common/loading.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/loading_4498be4.js",
+            "type": "js"
+        },
+        "static/js/common/rem.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/rem_df13fd9.js",
+            "type": "js"
+        },
+        "static/js/common/touch.js": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/touch_93bbc82.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}
