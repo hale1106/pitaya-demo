@@ -19,12 +19,13 @@ fis.match('*.less', {
 fis.match('{*.less,*.css}', {
   useSprite: true
 });
+
 fis.config.set('settings.spriter.csssprites', {
   //图之间的边距
   margin: 10
 });
 
-fis.match('static/**', {
+fis.match('{static/**,widget/**.less}', {
   useHash: true,
   domain:'http://h5.flyfinger.com/pitaya-demo'
 });
@@ -51,6 +52,10 @@ fis.media('debug').match('::packager', {
     'static/js/pkg/global.js': [
       'static/js/common/zepto.js',
       'static/js/common/dialog.js'
+    ],
+    'static/css/pkg/allin.css':[
+      'static/css/example/main.less',
+      'widget/list.less'
     ]
   })
 });
@@ -63,6 +68,6 @@ fis.media('demo').match('*',{
   domain:false
 });
 
-fis.media('debug').match('static/**',{
+fis.media('debug').match('{static/**,widget/**.less}',{
   domain:false
 });

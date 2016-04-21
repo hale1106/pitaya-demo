@@ -15,7 +15,7 @@
             }
         },
         "static/css/example/main.less": {
-            "uri": "http://h5.flyfinger.com/pitaya-demo/static/css/example/main_5fecfee.css",
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/css/example/main_ad8cdbc.css",
             "type": "css"
         },
         "static/js/common/zepto.js": {
@@ -25,6 +25,14 @@
         "static/js/common/dialog.js": {
             "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/common/dialog_d2198b7.js",
             "type": "js"
+        },
+        "widget/list/list.vm": {
+            "uri": "/widget/list/list.vm",
+            "type": "vm"
+        },
+        "widget/list/list.less": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/widget/list/list_a9c7d12.css",
+            "type": "css"
         },
         "static/js/example/main.js": {
             "uri": "http://h5.flyfinger.com/pitaya-demo/static/js/example/main_f8ae045.js",
@@ -39,6 +47,10 @@
         },
         "static/css/example/animate.css": {
             "uri": "http://h5.flyfinger.com/pitaya-demo/static/css/example/animate_40369ef.css",
+            "type": "css"
+        },
+        "static/css/fun.less": {
+            "uri": "http://h5.flyfinger.com/pitaya-demo/static/css/fun_d41d8cd.css",
             "type": "css"
         },
         "static/css/global.less": {

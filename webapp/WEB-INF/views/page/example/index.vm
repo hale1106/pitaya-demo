@@ -1,13 +1,12 @@
 #extends("page/example/layout.vm")
 
 #block("body_content")
+
+#widget("widget/list/list.vm" "var:names=$names")
+
 <div class="wrap">
     <h4>中奖名单</h4>
-    <ul>
-        #foreach($item in $names)
-        <li class="name$!velocityCount"><span>$!item.name</span><b></b><strong>$!item.score</strong></li>
-        #end
-    </ul>
+    #renderNav($names)
     <p>共$names.size()人</p>
 </div>
 

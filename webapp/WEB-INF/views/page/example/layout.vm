@@ -6,7 +6,7 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <link type="text/css" rel="stylesheet" href="http://h5.flyfinger.com/pitaya-demo/static/css/example/main_5fecfee.css"/>
+#style("static/css/example/main.less")#end
         #block("header-content")
         #end
         <title>$title</title>

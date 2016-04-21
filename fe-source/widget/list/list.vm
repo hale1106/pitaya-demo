@@ -1,0 +1,9 @@
+#style("./list.less")#end
+##velocity 宏示例
+#macro(renderNav $names)
+<ul class="lists">
+    #foreach($item in $names)
+    <li class="name$!velocityCount"><span>$!item.name</span><b></b><strong>$!item.score</strong></li>
+    #end
+</ul>
+#end
